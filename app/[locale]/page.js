@@ -1,8 +1,13 @@
-import { useTranslations } from "next-intl"
 
 export default function Home() {
-  const t = useTranslations("Index");
   return (
-    <div>{t("title")}</div>
+    <main className='h-full w-full'>
+      <div className='flex flex-col gap-20'>
+        {/* <Hero /> */}
+        {/* <Skills /> */}
+        {/* <Encryption /> */}
+        {/* <Projects /> */}
+      </div>
+    </main>
   )
 }
